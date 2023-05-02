@@ -46,11 +46,11 @@ class MinuteArrow(Arrows):
 
 
 #loading images and turning them on vertical position
-second_hand = pygame.image.load('sec.png')
+second_hand = pygame.image.load('lab7\second.png')
 second_hand = pygame.transform.rotate(second_hand, 60)
-minute_hand = pygame.image.load('min.png')
+minute_hand = pygame.image.load('lab7\minute.png')
 minute_hand = pygame.transform.rotate(minute_hand, -48)
-background = pygame.image.load('clock.png')
+background = pygame.image.load('lab7\clockmicky.png')
 
 
 #initializing main settings
